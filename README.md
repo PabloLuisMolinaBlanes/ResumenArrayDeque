@@ -30,6 +30,7 @@ public class arraything {
 }
 
 ```
+Resultado:
 
 ```sh
 2
