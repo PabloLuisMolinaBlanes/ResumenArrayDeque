@@ -9,3 +9,16 @@ Si el Deque se modificase después de crearse el iterador, más allá de su mét
 Hay tres métodos constructores. En el primero (ArrayDeque()), se construye un Array Deque vacío, en el segundo (ArrayDeque(int integer)), se le da una capacidad inicial, aunque extendible, y en el tercero (ArrayDeque(Collection<? Extends E> c), el ArrayDeque admitiría solo valores de la clase detrás de 'Extends'.
 
 Métodos propios de la clase (no provenientes de su extensión) incluyen 'getFirst()', 'getLast()', 'pop()', 'push(E e)', 'removeFirst()' y 'removeLast()'.
+
+Ejemplos de su uso:
+
+import java.util.ArrayDeque;
+public class arraything {
+	public static void main(String[] args) {
+		ArrayDeque<String> array = new ArrayDeque<>();
+		array.add("Cat");
+		array.add("God");
+		System.out.println(array.getFirst());
+		System.out.println(array.getLast());
+	}
+}
