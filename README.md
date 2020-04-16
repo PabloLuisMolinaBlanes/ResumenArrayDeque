@@ -12,6 +12,7 @@ Métodos propios de la clase (no provenientes de su extensión) incluyen 'getFir
 
 Ejemplos de su uso:
 
+```
 import java.util.ArrayDeque;
 public class arraything {
 	public static void main(String[] args) {
@@ -22,3 +23,4 @@ public class arraything {
 		System.out.println(array.getLast());
 	}
 }
+```
