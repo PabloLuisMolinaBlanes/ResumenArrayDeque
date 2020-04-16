@@ -19,8 +19,13 @@ public class arraything {
 		ArrayDeque<String> array = new ArrayDeque<>();
 		array.add("Cat");
 		array.add("God");
+		System.out.println(array.size());
 		System.out.println(array.getFirst());
 		System.out.println(array.getLast());
+		array.removeLast();
+		array.removeLast();
+		System.out.println(array.size());
 	}
 }
+
 ```
