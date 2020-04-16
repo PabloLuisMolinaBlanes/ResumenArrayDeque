@@ -39,3 +39,36 @@ God
 0
 
 ```
+
+
+```java
+
+import java.util.ArrayDeque;
+public class arrays {
+	public static void main(String[] args) {
+		ArrayDeque array = new ArrayDeque<>();
+		array.add("Cat");
+		array.add(1);
+		array.add(2);
+		array.add(true);
+		array.add("God");
+		System.out.println(array.size());
+		System.out.println(array.getFirst());
+		System.out.println(array.getLast());
+		array.removeLast();
+		array.removeLast();
+		System.out.println(array.size());
+	}
+}
+
+
+```
+Resultado:
+
+```sh
+5
+Cat
+God
+3
+
+```
